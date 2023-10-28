@@ -1,0 +1,72 @@
+body {
+    font-family: "Permanent Marker", cursive;
+    background-color: #1b1919;
+  }
+  
+  section {
+    text-align: center;
+  }
+  
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+    color: #ffffff;
+  }
+  
+.game--status {
+    color: #ffffff;
+}
+  .game--title
+ {
+    color: #ffffff;
+ }
+  .game--container {
+    display: grid;
+    color: #ffffff;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+  }
+  
+  .cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #ffffff;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+  }
+
+  button {
+    font-family: 'Gaegu', cursive;
+    font-size: 20px;
+    border: 1px solid #222222;
+    border-radius: 50px;
+    box-shadow: none;
+    border-radius: 30px;
+    height: 40px;
+    width: 200px;
+    margin: 30px;
+}
+
+button:hover {
+    background-color: #333333;
+    border: 1px solid #000;
+    color: white;
+    transition: all 0.5s ease-in;
+}
+
+button:hover:after {
+    font-family: "FontAwesome";
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-ligatures: normal;
+    text-rendering: auto;
+}

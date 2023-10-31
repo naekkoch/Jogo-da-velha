@@ -5,7 +5,7 @@ let gameState = ["", "", "", "", "", "", "", "", ""];
 const winningMessage = () => `Jogador ${currentPlayer} venceu!`;
 const drawMessage = () => `Deu velha!`;
 const currentPlayerTurn = () => `É a vez do ${currentPlayer}'`;
-
+ 
 statusDisplay.innerHTML = currentPlayerTurn();
 
 // Array com as condições para a vitória
